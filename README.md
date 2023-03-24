@@ -6,8 +6,8 @@ The repository accompanies *Matlock, W. and Lipworth, S. et al. Enterobacterales
 | Script | Description | Dependencies |
 | -------|-------------|--------------|
 |`Coverage.sh`|Calculate the short-read coverage of genome assemblies for e.g. NCBI upload requirements. |bwa, samtools, bedtools|
-|`Louvain.py`|Benchmarks Louvain clustering for a range of mash distance-weighted edge network thresholds.| Python: community_louvain, collections, networkx, numpy, pandas |
-|`NetworkEvolution.py`|Records the largest connected component, number of connected components, and number of singletons, for a network over a range of network thresholds.| Python: networkx, numpy, pandas |
+|`Louvain.py`|Benchmarks Louvain network clustering over a range of edge weight thresholds.| Python: community_louvain, collections, networkx, numpy, pandas |
+|`NetworkEvolution.py`|Records the largest connected component, number of connected components, and number of singletons, for a network over a range of edge weight thresholds.| Python: networkx, numpy, pandas |
 |`RunAbricateProkka.sh`|Annotates genomes with abricate (various databases), AMRFinder, and prokka. Parallelised for a list of genomes. | abricate, AMRFinder, prokka|
 |`RunCopla.sh`|Runs COPLA in parallel on a list of genomes. |COPLA|
 |`RunIqtree.sh`| Runs IQ-TREE in parallel for list of a plasmid clusters. |IQ-Tree|
