@@ -1,6 +1,6 @@
 The repository accompanies *Matlock, W. and Lipworth, S. et al. (2023) *Enterobacterales* plasmid sharing amongst human bloodstream infections, livestock, wastewater, and waterway niches in Oxfordshire, UK. eLife. 2023 12:e85302. doi: https://doi.org/10.7554/eLife.85302*
 
-- Shell scripts (those ending in `.sh`) are formatted for SLURM jobs, but they also record the parameters used for any tools.
+- Shell scripts (those ending in `.sh`) are formatted for a Slurm scheduler, but they also record the parameters used for any tools.
 - If you require any help/other materials, please contact me, e.g. for my hacky plotting scripts!
 
 | Script | Description | Dependencies |
@@ -15,6 +15,3 @@ The repository accompanies *Matlock, W. and Lipworth, S. et al. (2023) *Enteroba
 |`RunMobtyper.sh`|Runs MOB-typer in parallel for a list of plasmids. | MOB-typer
 |`RunPanaroo.sh`| Runs panaroo in parallel for list of a plasmid clusters | panaroo |
 |`UnicyclerNCBI.py`| Reformats assembly fasta headers for NCBI upload-compliant location/plasmid-name/topology/completeness | Python: Bio|
-
-
-
